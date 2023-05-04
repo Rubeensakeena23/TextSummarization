@@ -1,0 +1,99 @@
+body {
+    background-color: #000000;
+    color: white;
+}
+
+.jumbotron {
+    background-color: #3E065F;
+}
+
+.original_title {
+    color: white;
+    background-color: #700B97;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 #ff1d8e, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.summary_title {
+    color: white;
+    background-color: #8E05C2;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgb(0, 250, 42), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.srt {
+    display: flex;
+    flex-direction: row;
+}
+
+.originalTxt {
+    background-color: #700B97;
+    padding: 20px;
+}
+
+.summaryTxt {
+    background-color: #8E05C2;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.heading {
+    font-weight:500;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.lead {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.submitBtn {
+    margin-top: 15px;
+    margin-left: 470px;
+    background-color: rgb(4, 255, 4);
+    color: black;
+    font-weight: 600
+}
+
+.submitBtn:hover{
+    color: white;
+    background: #8E05C2;
+    box-shadow: 0 0 10px #8E05C2, 0 0 30px #8E05C2, 0 0 60px #8E05C2;
+}
+
+.form-control {
+    background-color: #dddddd;
+    color: #666666;
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    transition: all 0.2s;
+}
+
+.form-control:hover {
+    cursor: pointer;
+    background-color: #eeeeee;
+}
+
+.form-control:focus {
+    cursor: text;
+    color: #333333;
+    background-color: white;
+    border: 2px solid #333333;
+}
